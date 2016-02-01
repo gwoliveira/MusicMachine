@@ -1,0 +1,203 @@
+<template name="playground">
+
+  <!-- Remember - if you want to control functions globaly, don't declare them as var. Just name them. -->
+
+
+
+
+  <div class="row">
+    <div class="col-sm-3">
+      <p>
+        bassline
+      </p>
+      <p>
+        <input type="checkbox" class="js-playbassline js-switch" />
+      </p>
+    </div>
+
+    <div class="col-sm-9">
+      <div class="well">
+        <p>
+          <input type="text" class="slider js-playbassline-speed" data-slider-tooltip="hide" data-slider-min="1" data-slider-max="100" />
+        </p>
+        <p>
+          <input type="text" class="slider js-playbassline-volume" data-slider-tooltip="hide"  data-slider-min="1" data-slider-max="100" />
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col-sm-3">
+      <p>
+        drums1
+      </p>
+      <p>
+        <input type="checkbox" class="js-drums1 js-switch" />
+      </p>
+    </div>
+
+    <div class="col-sm-9">
+      <div class="well">
+        <p>
+          <input type="text" class="slider js-drums1-speed" data-slider-tooltip="hide" data-slider-min="1" data-slider-max="100" />
+        </p>
+        <p>
+          <input type="text" class="slider js-drums1-volume" data-slider-tooltip="hide"  data-slider-min="1" data-slider-max="100" />
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="row">
+    <div class="col-sm-3">
+      <p>
+        arp
+      </p>
+      <p>
+        <input type="checkbox" class="js-arp js-switch" />
+      </p>
+    </div>
+
+    <div class="col-sm-9">
+      <div class="well">
+        <p>
+          <input type="text" class="slider js-arp-speed" data-slider-tooltip="hide" data-slider-min="1" data-slider-max="100" />
+        </p>
+        <p>
+          <input type="text" class="slider js-arp-volume" data-slider-tooltip="hide"  data-slider-min="1" data-slider-max="100" />
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col-sm-3">
+      <p>
+        bassdrum1
+      </p>
+      <p>
+        <input type="checkbox" class="js-bassdrum1 js-switch" />
+      </p>
+    </div>
+
+    <div class="col-sm-9">
+      <div class="well">
+        <p>
+          <input type="text" class="slider js-bassdrum1-speed" data-slider-tooltip="hide" data-slider-min="1" data-slider-max="100" />
+        </p>
+        <p>
+          <input type="text" class="slider js-bassdrum1-volume" data-slider-tooltip="hide"  data-slider-min="1" data-slider-max="100" />
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="row">
+    <div class="col-sm-3">
+      <p>
+        cymbal1
+      </p>
+      <p>
+        <input type="checkbox" class="js-cymbal1 js-switch" />
+      </p>
+    </div>
+
+    <div class="col-sm-9">
+      <div class="well">
+        <p>
+          <input type="text" class="slider js-cymbal1-speed" data-slider-tooltip="hide" data-slider-min="1" data-slider-max="100" />
+        </p>
+        <p>
+          <input type="text" class="slider js-cymbal1-volume" data-slider-tooltip="hide"  data-slider-min="1" data-slider-max="100" />
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="row">
+    <div class="col-sm-3">
+      <p>
+        hihat2
+      </p>
+      <p>
+        <input type="checkbox" class="js-hihat2 js-switch" />
+      </p>
+    </div>
+
+    <div class="col-sm-9">
+      <div class="well">
+        <p>
+          <input type="text" class="slider js-hihat2-speed" data-slider-tooltip="hide" data-slider-min="1" data-slider-max="100" />
+        </p>
+        <p>
+          <input type="text" class="slider js-hihat2-volume" data-slider-tooltip="hide"  data-slider-min="1" data-slider-max="100" />
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="row">
+    <div class="col-sm-3">
+      <p>
+        snaredrum1
+      </p>
+      <p>
+        <input type="checkbox" class="js-snaredrum1 js-switch" />
+      </p>
+    </div>
+
+    <div class="col-sm-9">
+      <div class="well">
+        <p>
+          <input type="text" class="slider js-snaredrum1-speed" data-slider-tooltip="hide" data-slider-min="1" data-slider-max="100" />
+        </p>
+        <p>
+          <input type="text" class="slider js-snaredrum1-volume" data-slider-tooltip="hide"  data-slider-min="1" data-slider-max="100" />
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="row">
+    <div class="col-sm-3">
+      <p>
+        I cant take it
+      </p>
+      <p>
+        <input type="checkbox" class="js-vibes js-switch" />
+      </p>
+    </div>
+
+    <div class="col-sm-9">
+      <div class="well">
+        <p>
+          <input type="text" class="slider js-vibes-speed" data-slider-tooltip="hide" data-slider-min="1" data-slider-max="100" />
+        </p>
+        <p>
+          <input type="text" class="slider js-vibes-volume" data-slider-tooltip="hide"  data-slider-min="1" data-slider-max="100" />
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <h2>  {{playbassline}} {{drums1}} {{arp}} {{bassdrum1}} {{cymbal1}} {{hihat2}} {{snaredrum1}} {{vibes}}</h2>
+
+</template>
